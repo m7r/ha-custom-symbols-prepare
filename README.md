@@ -52,6 +52,8 @@ Kown issues in SF Symbols Beta 4:
 - distribute.horizontal.center.fill
 - distribute.vertical.center
 - distribute.vertical.center.fill
+- facemask
+- facemask.fill
 - stethoscope
 - thermometer.sun
 
