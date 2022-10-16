@@ -113,7 +113,7 @@ const setRootArgs = (svg, viewBox) => {
 };
 
 const calcViewBox = (
-  { left, right, bottom, width, height },
+  { left, right, top, bottom, width, height },
   boxWidth,
   option
 ) => {
@@ -125,6 +125,7 @@ const calcViewBox = (
   const maxBottom = option.size - option.height;
 
   if (left < x) x = left;
+  if (top < y) y = top;
   if (right > maxRight) x = right - maxRight;
   if (maxSize > option.size) {
     size = maxSize;
@@ -178,6 +179,7 @@ const prepareFile = async (files, option) => {
   const icon = doc.querySelector("#" + base);
 
   if (icon) {
+    console.log(file.name);
     const viewBox = file.name.includes("joystick.tilt")
       ? "-3.5 -95.5 120 120"
       : calcViewBox(icon.getBBox(), getWidth(doc, base), option);
