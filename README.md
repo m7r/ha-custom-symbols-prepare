@@ -41,7 +41,7 @@ For all script arguments run `node prepare.js --help`
    </svg>
    ```
 
-Search for `tertiary#clear`, `secondary#clear` to find the fiew icons which need this optimization.
+Search for `tertiary#clear`, `secondary#clear` to find the few icons which need this optimization.
 
 ## Limitations
 
