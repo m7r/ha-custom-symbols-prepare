@@ -41,21 +41,7 @@ For all script arguments run `node prepare.js --help`
    </svg>
    ```
 
-Kown issues in SF Symbols Beta 4:
-
-- camera.filters
-- chart.line.downtrend.xyaxis
-- chart.line.flattrend.xyaxis
-- chart.line.uptrend.xyaxis
-- chart.xyaxis.line
-- distribute.horizontal.center
-- distribute.horizontal.center.fill
-- distribute.vertical.center
-- distribute.vertical.center.fill
-- facemask
-- facemask.fill
-- stethoscope
-- thermometer.sun
+Search for `tertiary#clear`, `secondary#clear` to find the fiew icons which need this optimization.
 
 ## Limitations
 
